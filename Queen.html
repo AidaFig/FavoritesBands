@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen</title>
+</head>
+<body>
+    <style>
+        body, ul, li, p {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+       header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            background-color: #FFD700;
+       }
+     
+    
+       .titulos {
+            margin: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+            text-align: center;
+       }
+
+       .titulos p::before, .titulos p:after{
+        content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: black;
+            margin: 14px auto 10px auto;
+       }
+
+       p {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+
+       a {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+        }
+
+        a:hover {
+            color: white;
+        }
+        .container {
+            margin: auto;
+            background-color: #FFD700;
+            max-width: 100%;
+            width: 1000px;
+            display: flex;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            box-shadow: 0px 0px 14px 1px #00000024;
+            border-radius: 10px;
+            
+
+        }
+        .info-boxes {
+            display: flex;
+            flex-direction: column;
+            padding: 50px 50px;
+            width: 400px;
+            text-align: justify;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+        }
+        
+        .integrantes {
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .more {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 13px;
+        }
+        .link-more {
+            color: black;
+        }
+        .link-more:hover {
+            color: #FFD700;
+        }
+    </style>
+<header>
+
+    <a href="#"><img src="imagens/drum-set.png" height="70x" alt="Logo" width="90px"></a>
+    
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">&#187; Voltar à página principal</a>
+            </li>
+
+        </ul>
+    </nav>
+ </header>
+
+ <div class="banner">
+    <div class="titulos"> 
+    <h1 >Queen</i></h1>
+    <p >Confira um breve resumo sobre a banda</p>
+    </div> 
+    <img src="/imagens/banner queen.jpeg" alt="Banner" width="100%" height="40%">
+</div>
+
+
+<section>
+    <div class="container">
+        
+        <div class="info-boxes sobre">
+            <h3>&#187; Sobre a banda:</h3><p>Queen foi uma banda britânica de rock, fundada em 1970 e ativa, sob sua formação clássica, até 1991. é frequentemente citado como um dos expoentes do seu estilo, também sendo um dos recordistas de vendas de discos a nível mundial. A música da banda também é conhecida por ser altamente eclética, variando entre várias vertentes do rock.</p></div>
+                   
+        <div class="info-boxes integrantes">
+            <h3>&#187; Integrantes:</h3>
+                <ul>
+                    <li>Freddie Mercury</li>
+                    <li>Brian May</li>
+                    <li>John Deacon</li>
+                    <li>Roger Taylor</li>
+                </ul></div>
+                    
+        <div class="info-boxes premios">
+            <h3>&#187; Prêmios:</h3>
+            <p>A banda ganhou 4 premios Brit Awards, 4 premios Ivor novello, recebeu diversas nomeações para o Grammy e muito mais.</p>
+        </div>
+    </div>
+ </section>
+                
+            
+        <div class="more"><p>Leia mais sobre Queen <a href="https://pt.wikipedia.org/wiki/Queen" class="link-more"> clicando aqui</a></p>
+        </div>
+
+        
+</body>
+</html>

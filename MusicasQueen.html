@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouça Queen</title>
+</head>
+<body>
+    <style>
+        body,ul,li, p {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+       header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            background-color: #FFD700;
+       }
+     
+    
+       .titulos {
+            margin: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+            text-align:center;
+        
+       }
+
+       .titulos p::before, .titulos p:after{
+        content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: black;
+            margin: 14px auto 10px auto;
+       }
+
+       p {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 14px;
+       }
+
+       a {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+        }
+
+        a:hover {
+            color: white;
+        }
+        .container {
+            margin: auto;
+            max-width: 100%;
+            width: 800px;
+            display: flex;
+            box-shadow: 0px 0px 14px 1px #00000024;
+            border-radius: 10px;
+            padding: 40px 0;
+            background-color: #FFD700;
+        }
+        .video {
+            margin: auto;
+        }
+        .more {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 13px;
+        }
+        .link-more {
+            color: black;
+        }
+        .link-more:hover {
+            color: #FFD700;
+        }
+    </style>
+    <header>
+
+        <a href="#"><img src="imagens/drum-set.png" height="70x" alt="Logo" width="90px"></a>
+        
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">&#187; Voltar à página principal</a></li>
+        </ul>
+     </nav>
+     </header>
+
+    <div class="titulos"> 
+       <h1>Música favorita da revista Aida's Magazine &#9829;</h1>
+       <p ><strong>"Somebody to Love"</strong>é um single lançado em novembro de 1976. Escrita por Freddie Mercury, a faixa faz parte do álbum A Day at the Races, distribuído no mesmo ano. A música é uma espécie de continuação de "Bohemian Rhapsody", porém com outras peculiaridades, por conter forte influência do gospel.</p>
+    </div> 
+    
+    
+    <div class="container">
+        <div class="video"><iframe width="630" height="390" src="https://www.youtube.com/embed/kijpcUv-b8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+            
+    <div class="more"><p>Para mais músicas do Queen <a href="https://www.youtube.com/watch?v=-tJYN-eG1zk&list=PL718D16542AE44430" class="link-more"> clique aqui</a></p>
+    </div>
+
+    
+</body>
+</html>

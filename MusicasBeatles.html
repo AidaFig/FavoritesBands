@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouça Beatles</title>
+</head>
+<body>
+    <style>
+        body,ul,li, p {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+       header {
+           display: flex;
+           flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            background-color: #FFD700;
+       }
+     
+    
+       .titulos {
+        margin: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        text-align:center;
+        
+       }
+
+       .titulos p::before, .titulos p:after{
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: black;
+        margin: 14px auto 10px auto;
+       }
+
+       p {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 14px;
+       }
+
+       a {
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        }
+
+        a:hover {
+            color: white;
+        }
+        .container {
+            margin: auto;
+            max-width: 100%;
+            width: 800px;
+            display: flex;
+            box-shadow: 0px 0px 14px 1px #00000024;
+            border-radius: 10px;
+            padding: 40px 0;
+            background-color: #FFD700;
+        }
+        .video {
+            margin: auto;
+        }
+        .more {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 13px;
+        }
+        .link-more {
+            color: black;
+        }
+        .link-more:hover {
+            color: #FFD700;
+        }
+    </style>
+
+    <header>
+
+        <a href="#"><img src="imagens/drum-set.png" height="70x" alt="Logo" width="90px"></a>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">&#187; Voltar à página principal</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <div class="titulos"> 
+        <h1>Música favorita da revista Aida's Magazine &#9829;</h1>
+        <p ><strong>"Oh! Darling"</strong> é uma canção dos Beatles composta por Paul McCartney, creditada à dupla Lennon-McCartney, e lançada<br> no álbum Abbey Road de 1969. A gravação teve início no dia 20 de abril de 1969, e concluída em 11 de agosto de 1969.</p>
+        </div> 
+    
+
+    <div class="container">
+
+        <div class="video"><iframe width="630" height="390" src="https://www.youtube.com/embed/yKN823UrUi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+                
+        <div class="more"><p>Para mais músicas de The Beatles <a href="https://www.youtube.com/watch?v=jenWdylTtzs&list=RDEMDwfWqCd9jXCuVO7pjkJHTw&start_radio=1" class="link-more"> clique aqui</a></p>
+        </div>
+
+
+    
+</body>
+</html>

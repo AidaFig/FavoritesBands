@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Aida's Magazine</title>
+</head>
+<body>
+    <style>
+        body, ul, li, p {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+
+        }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            background-color: #FFD700;
+    
+        }
+        .menu {
+            display: flex;
+        
+        }
+        .menu li {
+            margin-left: 20px;
+    
+        }
+     
+        .menu li a {
+            display: block;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+        }
+        
+
+        a:hover {
+            color: white;
+
+        }
+        .link:hover {
+            color: white;
+        }
+
+        .banner {
+            text-align:  center;
+            
+        }
+        .banner img {
+            width: 100%;
+        }
+        .titulos {
+            margin: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        }
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        .titulos p::before, .titulos p:after{
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: black;
+            margin: 14px auto 10px auto;
+        }
+         section {
+            margin: auto;
+            margin-top: 50px;
+            max-width: 100%;
+            width: 1020px;
+            box-shadow: 0px 0px 14px 1px #00000024;
+            border-radius: 10px;
+        }
+        section>h2{
+            padding-top: 30px;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+         .container {
+             display: flex;
+             justify-content: space-around;
+             padding-bottom: 68.92px;
+    
+             
+         }
+         .small-boxes {
+             display: flex;
+             flex-direction: column;
+             padding: 10px;
+             align-items: center;
+            
+         }
+        .bands .small-boxes img {
+            height: 200px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+
+         }
+        .vocalistas .small-boxes img {
+            width: 50%;
+            border-radius: 10px;
+
+        }
+        .albums .small-boxes img{
+            width: 250px;
+            border-radius: 50%;
+        }
+        .curiosidades .small-boxes{
+            width: 25%;
+            text-align: justify;
+        }
+
+
+         .yellow-boxes{
+            background-color:#FFD700;
+         }
+         h3 {
+             text-align: center;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             font-size: 14px;
+         }
+         
+
+        
+    </style>
+
+    <!-- Header-->
+<header>
+
+   <a href="#"><img src="imagens/drum-set.png" height="70x" alt="Logo" width="90px"></a>
+   
+   <nav>
+       <ul class="menu">
+           
+           <div><li><a href="#bandas">&#187; Bandas</a></li></div>
+
+           <div><li><a href="#vocalistas">&#187; Vocalistas</a></li></div>
+
+           <div><li><a href="#ouça">&#187; Ouça Agora</a></li></div>
+
+           <div><li><a href="#curiosidades">&#187; Curiosidades</a></li>
+        </div>
+       </ul>
+   </nav>
+</header>
+    <!-- Banner e titulo-->
+   <div class="banner">
+     <div class="titulos"> 
+    <h1 >As melhores bandas da história segundo a revista <i>Aida's Magazine. &#153;</i></h1>
+    <p >A revista apresenta as 3 melhores bandas que fizeram/fazem história até os dias atuais e só a opinião dela importa:</p>
+    </div> 
+    <img src="imagens/WhatsApp Image 2021-03-26 at 18.10.22.jpeg" alt="Banner">
+    </div>
+
+    <!-- Section sobre as bandas-->
+
+<section id="bandas" class="yellow-boxes bands">
+
+    <h2 >&#150; Bandas &#150;</h2>
+
+    <div class="container">
+
+        <div class="small-boxes">
+        <h3><a href="RHCP.html" class="link">&#149; Conheça: Red Hot Chili Peppers</a></h3> 
+        <img src="imagens/rhcp-ap_photo-alvaro_barrientos_widelg.jpeg" alt="Red Hot Chili Peppers" class="img-bands">
+        </div>
+
+        <div class="small-boxes">
+        <h3><a href="Beatles.html" class="link">&#149; Conheça: The Beatles</a></h3>
+        <img src="imagens/EwxhXU5WQAQsqTO.jpeg" alt="Beatles" class="img-bands">
+        </div>
+
+        <div class="small-boxes">
+        <h3><a href="Queen.html" class="link">&#149; Conheça: Queen</a></h3>
+        <img src="imagens/queen_bohemian_rhapsody_divulgacao_widelg.jpeg" alt="Queen" class="img-bands">
+        </div>
+    </div>
+</section>
+
+
+    <!--Section sobre os vocalistas-->
+
+    <section id="vocalistas" class="yellow-boxes vocalistas">
+        <h2>&#150; Vocalistas &#150;</h2>
+        <div class="container">
+            
+            <div class="small-boxes">
+                <h3><a href="Vocalistas.html" class="link"> &#149; Saiba mais sobre seus respectivos vocalistas</a></h3>
+                <img src="imagens/WhatsApp Image 2021-03-27 at 13.32.15.jpeg" alt="Vocalistas" ></div>
+        </div>
+    </section>
+
+
+   <!--section sobre as musicas-->
+
+   <section id="ouça" class="yellow-boxes albums">
+
+       <h2>&#150; Alguns dos principais sucessos &#150;</h2>
+
+    <div class="container">
+        <div class="small-boxes">
+        <h3><a href="MusicaRHCP.html" class="link">&#149; Ouça: RHCP</a></h3>
+        <img src="imagens/Logo RHCP.jpeg" alt="Logo RHCP" ></div>
+
+        <div class="small-boxes">
+        <h3><a href="MusicasBeatles.html" class="link">&#149; Ouça: The Beatles</a></h3>
+        <img src="imagens/Logo Beatles.jpeg" alt="Logo Beatles" >
+        </div>
+
+        <div class="small-boxes">
+        <h3><a href="MusicasQueen.html" class="link">&#149; Ouça: Queen</a></h3>
+        <img src="imagens/Logo Queen.jpeg" alt="Logo Queen" >
+        </div>
+    </div>
+   </section>
+
+      
+    <!-- Section sobre as curiosidades-->
+
+       <section id="curiosidades" class="yellow-boxes curiosidades">
+
+        <h2> &#150; Curiosidades &#150;</h2>
+
+        <div class="container">
+            
+        <div class="small-boxes ">
+            <h3>&#149; Sobre as bandas:</h3>
+            As três bandas aqui citadas possuem um integrante chamado John. Coincidência? Eu acho que não. Isso significa que as melhores bandas do planeta têm um John pra chamar de seu. <strong>Fonte:</strong> Vozes da minha cabeça.</div>
+
+        <div class="small-boxes">
+            <h3>&#149; Sobre RHCP:</h3>
+            No começo, o Red Hot Chili Peppers se chamava Tony Flow and the Miraculously Majestic Masters of Mayhem, que significa Tony Flow e os Miraculosos Majestosos Mestres da Mutilação.</div>
+
+        <div class="small-boxes">
+            <h3>&#149; Sobre The Beatles:</h3>
+            Strawberry Field, um dos clássicos do grupo, não era um campo de morangos, como a tradução literal sugere, era um orfanato gerido pelo Exército da Salvação. O local ficava próximo de onde John Lennon morava e era para onde ele escapava para acompanhar os saraus da instituição.</div>
+
+        <div class="small-boxes">
+            <h3>&#149; Sobre Queen:</h3>
+            Poucos sabem, mas o nome verdadeiro de Freddie Mercury era Farrokh Bulsara. Em 1970, quando entrou para a banda, conseguiu mudar legalmente seu nome.</div>
+
+        </div>
+        </section>
+      
+</body>
+</html>
